@@ -1,0 +1,37 @@
+# 工作产物 —— 绝不提交（均为游戏素材衍生内容）
+译图/
+原图/
+成品/
+加密件/
+_ocr/
+_工作/
+
+# 游戏加密件与解出的明文图
+*.png_
+*.rpgmvp
+*.rpgmvo
+*.rpgmvm
+
+# 临时与调试产物
+_t*.png
+_t*.txt
+*.log
+*.tmp
+dryrun_*.bat
+_tmp*.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*.bak
+*.bak-*
+*.before-*

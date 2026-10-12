@@ -1,0 +1,11 @@
+# 统一行尾：仓库内一律 LF，检出时由各平台自行处理。
+# Windows 脚本显式保持 CRLF，避免老工具解析异常。
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 图片与二进制不要做行尾转换
+*.png binary
+*.jpg binary
+*.ico binary
